@@ -180,7 +180,7 @@ header{
 
 				&:last-of-type{
 					position: relative;
-					&:after{
+					&:after{ 
 						content: '';
 						display: block;
 						border: 11px solid black;
