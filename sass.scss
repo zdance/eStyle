@@ -498,13 +498,46 @@ article{
 	.ads{
 		background-color: #faf;
 		width: 135px;
-		height: 135px;text-align: center;
-		line-height: 135px;
+		height: 135px;
+		text-align: center;
+		
 		float: left;
 		margin: 0 13px 13px 0;
+		position: relative;
+		-webkit-transition: transform 1s;
+		-moz-transition: transform 1s;
+		-ms-transition: transform 1s;
+		-o-transition: transform 1s;
+		transition: transform 1s; 
 		&:nth-child(even){margin-right: 0;}
 	}
 }
+.ads:hover{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.ads:hover > .adsp{
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.adsp{
+	 
+	 
+	font-size: 20px;
+	margin: 55px auto;
+	-webkit-transition: transform 1s;
+	-moz-transition: transform 1s;
+	-ms-transition: transform 1s;
+	-o-transition: transform 1s;
+	transition: transform 1.2s ;
+}
+
 
 .pages{margin-top: 10px;
 	font-family: helvetica;
