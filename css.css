@@ -661,8 +661,11 @@ footer {
   .max {
     max-width: 100%; }
 
-  .ads {
+  .ads125 .ads:nth-child(even) {
     margin-right: 13px; }
+
+  .fr {
+    float: none; }
 
   .top .wrap ul {
     margin-top: 40px;

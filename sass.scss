@@ -785,7 +785,9 @@ header nav ul li:last-of-type{
 
 @media screen and (max-width: 991px) {
 .max{max-width: 100%}
-.ads{margin-right: 13px;}
+
+.ads125 .ads:nth-child(even) {margin-right: 13px;}
+.fr{float: none;}
 
 .top .wrap ul{
 	margin-top: 40px;
