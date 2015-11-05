@@ -37,6 +37,9 @@ $blue: #0bb1e8;
 	margin: 0 auto;
 	height: auto;
 }
+body{
+	a:hover{color: #ffa;}
+}
 header{
 	ul{
 		background-color: #3d3d3d;
@@ -313,9 +316,13 @@ header{
 	color: #000;
 	font-weight: bold;
 	margin-top: 5px;
+	border: 0;
+	float: right;
+	outline: 0;
 	}
 article{
 	margin-top: 25px;
+	display: none;
 	h3{
 		font-weight: bold;
 	}
@@ -771,7 +778,7 @@ footer{
 	padding: 44px 10px;
 	color: #fff;
 	background: black;
-	
+	font-size: 17px;
 	-webkit-transition: color 1s 0s;
 	-o-transition: color 1s 0s;
 	transition: color 1s 0s;

@@ -52,6 +52,24 @@ $('.closee').click(function(){
 
 <!-- .pokaz  END -->
 
+<!-- Article show  END -->
+
+  $(window).scroll(function(){
+      var top = $(window).scrollTop();
+      var body = $('body').height();
+      var win = $(window).height();
+      top = top + 300;
+    var res = body - win;
+    if( res < top){
+      $('article').fadeIn(1000);
+    }
+  //alert(res+' ' +' ' +top)
+  });
+
+
+<!-- Article show  END -->
+
+
 });<!-- END -->
 
 
